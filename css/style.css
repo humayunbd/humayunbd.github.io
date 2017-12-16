@@ -9,7 +9,7 @@
 
 /*Header section*/
 header{
-    background: #423;
+    background: #332E3C;
 }
 #mainLogo{
     width: 50%;
@@ -175,7 +175,7 @@ section div.registration{
 footer{
     width: 100%;
     height: auto;
-    background: #423;
+    background: #332E3C;
 }
 footer div.webmaster p{
     padding: 5px 20px; 
