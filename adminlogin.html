@@ -66,11 +66,11 @@
         </header>
 
             <!-- Navigation -->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default hidden">
             <div class="container-fluid">
 
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration<span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -113,44 +113,48 @@
         </nav>
 
             <!-- main body part containing side bar and other elements -->
-        <section>
-            <div class="row">
+        <section id="adminlogin">
 
-                <!-- left sidebar -->
-                <div class="col-sm-2 panel-group">
-                    <div class="panel panel-default card">
-                        <div class="panel-heading">Quick Links</div>
-                        <div class="panel-body"><a class="active" href="#home">Home</a></div>
-                        <div class="panel-body"><a href="#link">About</a></div>
-                        <div class="panel-body"><a href="#link">Notice</a></div>
-                        <div class="panel-body"><a href="#link">Result</a></div>
-                        <div class="panel-body"><a href="#link">Calendar</a></div>
-                    </div>
-                </div>
+            <div class="container card">
+                <h4 class="col-sm-offset-1">Administrator Login</h4>
+                <form class="form-horizontal" action="/action_page.php">
 
-                <!-- main contents -->
-                <div class="col-sm-10">
-                        <!-- Slide Show section -->
-                        <div class="slider-area">
-
-                            <div class="slider-active owl-carousel">
-
-                                <img src="img/slide1.jpeg" alt="slide">
-                                <img src="img/slide2.jpeg" alt="slide">
-                                <img src="img/slide3.jpeg" alt="slide">
-
-                            </div>
-
+                    <div class="form-group">
+                        <div class="col-sm-offset-1 col-sm-10 input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input type="text" class="form-control" id="admin" placeholder="Admin" name="admin" minlength="5" maxlength="5" required="1" value="Admin">
                         </div>
-                    <!-- rest of the content -->
+                    </div>
 
-                </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-1 col-sm-10 input-group">  
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>        
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" minlength="6" maxlength="20" required="1">
+                        </div>
+                    </div>
 
+                    <div class="form-group">        
+                        <div class="col-sm-offset-1 col-sm-10">
+                            <div class="checkbox">
+                                <label><input type="checkbox" name="remember"> Remember me</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">        
+                        <div class="col-sm-offset-1 col-sm-8">
+                            <button type="submit" class="btn btn-default"><b>Log In</b></button>
+                        </div>
+                    </div>
+                </form>
             </div>
+
         </section>
 
+
+
             <!-- Footer -->
-        <footer class="footer">
+        <footer>
             <div class="row">
                 <div class="col-sm-4" style="color: #fff; padding: 5px 20px;">
                     

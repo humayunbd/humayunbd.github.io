@@ -111,7 +111,7 @@ header{
 }
 #mainLogo{
     width: 50%;
-    height: 100%;
+    height: 90%;
     padding: 2%;
 }
 #phyText{
@@ -129,11 +129,19 @@ header{
     text-align: left;
     padding: 5px;
 }
-.loginField button{
-    height: 20px;
-    width: 70px;
-    margin-top: 10px;
-    margin-right: 5px;
+.loginField div.btnWrap2 {
+    display: none;
+}
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
 }
 
 .loginField p{
@@ -149,9 +157,8 @@ header{
 }
 
 
-
 /* Navigation properties*/
-.container-fluid ul li {
+.navbar > .container-fluid ul li {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -166,6 +173,27 @@ section{
     margin-top: -20px;
 
 }
+
+/*Properties for login pages*/
+#userlogin{
+    padding: 5% 10%; 
+    background: #efefef;
+}
+#adminlogin{
+    padding: 8% 10%; 
+    background: #efefef;
+    margin-top: 0px;
+}
+#registration{
+    padding: 10px; 
+    background: #efefef;
+}
+section div.container:not(.registration){
+    margin: 0px auto;
+    max-width: 450px;
+}
+
+/*Side panel Properties*/
 .panel-group{
 
 }
@@ -244,7 +272,12 @@ footer{
     height: auto;
     background: #423;
 }
-
+footer div.webmaster p{
+    padding: 5px 20px; 
+    font-size: 16px; 
+    text-align: left; 
+    color: white;
+}
 
 /*card css styles*/
 .card {
