@@ -4,7 +4,7 @@
     width: 100%;
     height: auto;
     margin: 0px auto;
-    border: 1px solid black;
+    border: 0px solid black;
 }
 
 /*Header section*/
@@ -60,11 +60,19 @@ header{
 
 
 /* Navigation properties*/
+.navbar{
+	margin-bottom: 0px;
+}
 .navbar > .container-fluid ul li {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
-
+.navbar > .container-fluid ul li a{
+}
+.navbar > .container-fluid > .navbar-form > .input-group input{
+}
+.navbar > .container-fluid > .navbar-form > .input-group > .input-group-btn > .btn{
+}
 
 /*Body section with sidebar*/
 section{
@@ -72,7 +80,7 @@ section{
     height: auto;
     padding: 10px;
     background: #fff;
-    margin-top: -20px;
+    margin-top: 0px;
 
 }
 
@@ -87,7 +95,7 @@ section{
     margin-top: 0px;
 }
 #registration{
-    padding: 10px; 
+    padding: 20px; 
     background: #efefef;
 }
 section div.container:not(.registration){
@@ -98,6 +106,7 @@ section div.registration{
     margin: 0px auto;
     max-width: 800px;
 }
+
 /*Side panel Properties*/
 .panel-group{
 
@@ -185,6 +194,10 @@ footer div.webmaster p{
 }
 
 /*card css styles*/
+.profile{
+    padding: 20px 30px 20px 30px;
+}
+
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -201,13 +214,13 @@ footer div.webmaster p{
     padding: 2px 16px;
 }
 /*uncommment to get rouded edge cards 5px rounded corners */
-/*.card {
+.card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; 
-}*/
+}
 
 /* Add rounded corners to the top left and the top right corner of the image */
-/*img {border-radius: 5px 5px 0 0;}*/
+img {border-radius: 5px 5px 0 0;}
 
 
