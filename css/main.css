@@ -192,7 +192,10 @@ section div.container:not(.registration){
     margin: 0px auto;
     max-width: 450px;
 }
-
+section div.registration{
+    margin: 0px auto;
+    max-width: 800px;
+}
 /*Side panel Properties*/
 .panel-group{
 
