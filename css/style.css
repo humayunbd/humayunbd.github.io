@@ -14,7 +14,8 @@ header{
 #mainLogo{
     width: 50%;
     height: 90%;
-    padding: 2%;
+    padding: 4%;
+    margin-left: 3%;
 }
 #phyText{
     text-transform: capitalize;
@@ -143,7 +144,7 @@ section div.registration{
 
 /*slide show content*/
 .slider-area{
-    max-width: 600px;
+    max-width: 700px;
     margin: 0px auto;
     padding: 0px;
 }
