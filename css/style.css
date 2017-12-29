@@ -1,0 +1,179 @@
+
+/*Global CSS*/
+body {
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.float_left{
+  float: left;
+}
+.float_right{
+  float: right;
+}
+.fix{
+    overflow: hidden;
+}
+.rounded {
+  border-radius: 5px;
+}
+.section_height{
+  padding-top:60px;
+  min-height: 550px;
+}
+.margin_fix{
+  margin-top: -50px;
+}
+.margin_top20px{
+  margin-top: 20px;
+}
+.bg_white{
+  background-color: #ffffff;
+}
+
+.form{
+  padding: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: #efefef;
+}
+
+.border1px{
+  border: 1px solid red;
+}
+.h200{
+  min-height: 200px;
+}
+
+
+
+/*card css styles*/
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
+/*Topbar Properties*/
+.topbar{
+  padding-top: 5px;
+}
+
+
+
+
+/*Header Properties*/
+header{
+  background-color: #332E3C;
+}
+.header_wrapper{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 200px;
+}
+.header_wrapper h2{
+  color: #fff;
+  font-size: 40px;
+}
+.header_wrapper p{
+  color: #fff;
+  text-align: right;
+}
+
+
+
+
+/*Navbar Properties*/
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.navbar{
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border-color: #ddd;
+  border-top: 0px;
+}
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px;
+}
+.navbar-right > li > a.active{
+  color: #555;
+  background-image: linear-gradient(to bottom,#dbdbdb 0,#e2e2e2 100%);
+  box-shadow: inset 0 3px 9px rgba(0,0,0,.075);
+}
+
+
+
+
+
+
+/*Main Elements Properties*/
+#section1 {
+  color: #222; 
+  background-color: #ffffff;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.tabs{
+  padding-top: 20px;
+}
+
+#section2 {
+  color: #222; 
+  background-color: #eee;
+}
+.well{
+  margin-top: 20px;
+  background-image: none;
+  background-color: #fff;
+}
+
+#section3 {
+  color: #222; 
+  background-color: #ffffff;
+}
+
+#section4 {
+  color: #222; 
+  background-color: #eee;
+}
+
+
+
+
+
+
+
+
+
+/*Footer Properties*/
+footer{
+	background-color: #332E3C;
+	margin-top: 0px;
+}
+.footer_wrapper{
+  min-height: 250px;
+}
+
+/*BottomBar Properties*/
+.bottombar{
+	padding-top: 5px;
+}
+
+
+
+
