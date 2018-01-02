@@ -153,8 +153,19 @@ header{
 }
 
 
-
-
+/* GOOGLE MAP CSSS*/
+.mapouter{
+  overflow:hidden;
+  max-height:350px;
+  max-width:550px;
+  margin: 0px auto;
+}
+.gmap_canvas {
+  background:none!important;
+  max-height:350px;
+  max-width:550px;
+  margin: 0px auto;
+}
 
 
 
